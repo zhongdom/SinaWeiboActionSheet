@@ -1,5 +1,5 @@
 # SinaWeiboActionSheet
 新浪微博样式的ActionSheet
 
-详情请查看代码
+实现此功能的关键是在view里面生成一个UIWindow（该window会自动被加入到已有的window上面），然后设置windowlevel和hidden属性就可以让现实或者隐藏。具体详情请查看代码
 
