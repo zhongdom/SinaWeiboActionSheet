@@ -1,5 +1,5 @@
 #新浪微博样式的ActionSheet
-实现此功能的关键是在view里面生成一个UIWindow（该window会自动被加入到已有的window上面），然后设置windowlevel和hidden属性就可以让现实或者隐藏。
+实现此功能的关键是在view里面生成一个UIWindow（该window会自动被加入到已有的window上面），然后设置windowlevel和hidden属性就可以显示或者隐藏。
 
 	//懒加载window，新建window之后会被自动添加到已有window上，只要设置windowLevel和hidden属性即可显示
 	-(UIWindow *)actionWindow{
